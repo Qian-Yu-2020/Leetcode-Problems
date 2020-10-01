@@ -4,7 +4,7 @@
 1. By questions' category - the folders above 
 2. By questions' function - the lists below
 
-### Missing value 
+## Missing value 
 #### Return and state as "null"
 [# 1378. Replace Employee ID With The Unique Identi.sql]()
 
@@ -22,7 +22,7 @@
 
 
 
-### Aggregate 
+## Aggregate 
 #### Return result, and result will be compared "more/less than"
 [# 1587. Bank Account Summary II.sql]()
 
@@ -37,35 +37,35 @@
 
 
 
-### Calculation
+## Calculation
 #### In and Out transaction
 [# 1555. Bank Account Summary.sql]()
 
 #### rate (two factors)
-[# 1322. Ads Performance.sql]() | 0 
+    [# 1322. Ads Performance.sql]() | 0 
  --- | ---
 
 #### across two or more tables 
-[# 1571. Warehouse Manager.sql]() | 0 
+    [# 1571. Warehouse Manager.sql]() | 0 
  --- | ---
 
 
-### Date 
+## Date 
 #### Find a specific month
-[# 1511. Customer Order Frequency.sql]()
+    [# 1511. Customer Order Frequency.sql]()
 
 #### Modify into a specific format
-[# 1543. Fix Product Name Format.sql]() | [# 1565. Unique Orders and Customers Per Month.sql]()
+    [# 1543. Fix Product Name Format.sql]() | [# 1565. Unique Orders and Customers Per Month.sql]()
  --- | ---
 
 
-### Multiple Joins
+## Multiple Joins
 #### Three tables 
-[# 1555. Bank Account Summary.sql]()
+    [# 1555. Bank Account Summary.sql]()
 
-### Formating
+## Formating
 #### aggregate the product names in one cell
-[# 1484. Group Sold Products By The Date.sql]()
+    [# 1484. Group Sold Products By The Date.sql]()
 
 #### String Validation 
 [# 1517. Find Users With Valid E-Mails.sql]()
