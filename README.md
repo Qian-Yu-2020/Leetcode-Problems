@@ -26,7 +26,12 @@
 
 
 #### As a condition, the result will be compared "more/less than"
-[# 1511. Customer Order Frequency.sql]() [# 1327. List the Products Ordered in a Period.sql]()
+ [# 1511. Customer Order Frequency.sql]() [# 1327. List the Products Ordered in a Period.sql]() 
+ 
+
+ Less | [# 1327. List the Products Ordered in a Period.sql]() 
+ --- | ---
+ [# 1327. List the Products Ordered in a Period.sql]() |  [# 1511. Customer Order Frequency.sql]()
 
 
 
