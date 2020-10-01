@@ -9,6 +9,8 @@
 [# 1378. Replace Employee ID With The Unique Identi.sql]()
 
 #### Return and state as 0
+ [# 1322. Ads Performance.sql]() | 0 
+ --- | ---
 
 
 #### Return the related column value 
@@ -29,9 +31,9 @@
  [# 1511. Customer Order Frequency.sql]() [# 1327. List the Products Ordered in a Period.sql]() 
  
 
- Less | [# 1327. List the Products Ordered in a Period.sql]() 
+ 0 | [# 1327. List the Products Ordered in a Period.sql]() 
  --- | ---
- [# 1327. List the Products Ordered in a Period.sql]() |  [# 1511. Customer Order Frequency.sql]()
+0|  [# 1511. Customer Order Frequency.sql]()
 
 
 
@@ -39,12 +41,22 @@
 #### In and Out transaction
 [# 1555. Bank Account Summary.sql]()
 
+#### rate (two factors)
+[# 1322. Ads Performance.sql]() | 0 
+ --- | ---
+
+#### across two or more tables 
+[# 1571. Warehouse Manager.sql]() | 0 
+ --- | ---
+
+
 ### Date 
 #### Find a specific month
 [# 1511. Customer Order Frequency.sql]()
 
 #### Modify into a specific format
-[# 1543. Fix Product Name Format.sql]()
+[# 1543. Fix Product Name Format.sql]() | [# 1565. Unique Orders and Customers Per Month.sql]()
+ --- | ---
 
 
 ### Multiple Joins
