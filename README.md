@@ -59,12 +59,13 @@
 [# 1555. Bank Account Summary.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201555.%20Bank%20Account%20Summary.sql)| -
  --- | ---
 
-###### rate (two factors)
+###### Rate or Percentage 
 [# 1322. Ads Performance.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Marketing%20and%20Ecommerce/%23%201322.%20Ads%20Performance.sql) | [# 1251. Average Selling Price.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201251.%20Average%20Selling%20Price.sql)
  --- | ---
+[# 1211. Queries Quality and Percentage.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%201211.%20Queries%20Quality%20and%20Percentage.sql)| -
 
 ###### across two or more tables 
-[# 1571. Warehouse Manager.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201571.%20Warehouse%20Manager.sql) | -
+[**# 1571. Warehouse Manager.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201571.%20Warehouse%20Manager.sql) | -
  --- | ---
 
 ## Date 
@@ -78,11 +79,13 @@
 
 ###### Period of Time
  [# 1251. Average Selling Price.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201251.%20Average%20Selling%20Price.sql) | - 
+ --- | ---
 
 ###### Case by case 
 
 [# 1294. Weather Type in Each Country.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%201294.%20Weather%20Type%20in%20Each%20Country.sql) | [# 1322. Ads Performance.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Marketing%20and%20Ecommerce/%23%201322.%20Ads%20Performance.sql) 
  --- | ---
+[**# 627. Swap Salary.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%20627.%20Swap%20Salary.sql) | -
 
 
 
