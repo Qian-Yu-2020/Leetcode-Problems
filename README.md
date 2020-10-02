@@ -40,7 +40,7 @@
 
 
 ###### Include the result, no matter is 0 or not 
-[# Students and Examinations.sql](# 1280. Students and Examinations.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201280.%20Students%20and%20Examinations.sql)| -
+[# 1280. Students and Examinations.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201280.%20Students%20and%20Examinations.sql)| -
 --- | ---
 
 
@@ -62,7 +62,7 @@
  --- | ---
 
 ###### across two or more tables 
-[# 1571. Warehouse Manager.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201571.%20Warehouse%20Manager.sql | -
+[# 1571. Warehouse Manager.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201571.%20Warehouse%20Manager.sql) | -
  --- | ---
 
 ## Date 
@@ -103,5 +103,5 @@
 - end with 
 
 ###### String Formay - No lowercase without leading or trailing white spaces
-[# 1543. Fix Product Name Format.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201543.%20Fix%20Product%20Name%20Format.sql)| 0
+[# 1543. Fix Product Name Format.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201543.%20Fix%20Product%20Name%20Format.sql)| -
  --- | ---
