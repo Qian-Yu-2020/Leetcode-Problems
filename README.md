@@ -11,7 +11,9 @@
 
 ###### Return and state as 0
  [# 1322. Ads Performance.sql]() | [# 1407. Top Travellers.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201407.%20Top%20Travellers.sql)
- --- | ---
+--- | ---
+[**# 1241. Number of Comments per Post.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Social%20Media%20and%20Posts/%23%201241.%20Number%20of%20Comments%20per%20Post.sql) | -
+
 
 ###### Return the related column value 
 [# 1350. Students With Invalid Departments.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201350.%20Students%20With%20Invalid%20Departments.sql)| [# 607. Sales Person.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%20607.%20Sales%20Person.sql)
@@ -58,7 +60,7 @@
  --- | ---
 
 ###### rate (two factors)
-[# 1322. Ads Performance.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Marketing%20and%20Ecommerce/%23%201322.%20Ads%20Performance.sql) | -
+[# 1322. Ads Performance.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Marketing%20and%20Ecommerce/%23%201322.%20Ads%20Performance.sql) | [# 1251. Average Selling Price.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201251.%20Average%20Selling%20Price.sql)
  --- | ---
 
 ###### across two or more tables 
@@ -74,18 +76,25 @@
 [# 1543. Fix Product Name Format.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201543.%20Fix%20Product%20Name%20Format.sql) | [# 1565. Unique Orders and Customers Per Month.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201565.%20Unique%20Orders%20and%20Customers%20Per%20Month.sql)
  --- | ---
 
+###### Period of Time
+ [# 1251. Average Selling Price.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201251.%20Average%20Selling%20Price.sql) | - 
 
 ###### Case by case 
 
-[# 1294. Weather Type in Each Country.sql]() | [# 1322. Ads Performance.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Marketing%20and%20Ecommerce/%23%201322.%20Ads%20Performance.sql) 
+[# 1294. Weather Type in Each Country.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%201294.%20Weather%20Type%20in%20Each%20Country.sql) | [# 1322. Ads Performance.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Marketing%20and%20Ecommerce/%23%201322.%20Ads%20Performance.sql) 
  --- | ---
 
 
 
-## Multiple Joins
+## Joins
 ###### Three tables 
 [# 1555. Bank Account Summary.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201555.%20Bank%20Account%20Summary.sql)| [# 1280. Students and Examinations.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201280.%20Students%20and%20Examinations.sql)
  --- | ---
+ 
+ ###### Self Joins 
+[# 1241. Number of Comments per Post.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Social%20Media%20and%20Posts/%23%201241.%20Number%20of%20Comments%20per%20Post.sql) | - 
+ --- | ---
+ 
 
 ## Formating
 ###### aggregate the product names in one cell
