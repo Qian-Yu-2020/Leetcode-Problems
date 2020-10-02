@@ -6,69 +6,72 @@
 
 ## Missing value 
 ###### Return and state as "null"
-[# 1378. Replace Employee ID With The Unique Identi.sql]()| 0 
+[# 1378. Replace Employee ID With The Unique Identi.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201378.%20Replace%20Employee%20ID%20With%20The%20Unique%20Identi.sql)| -
  --- | ---
 
 ###### Return and state as 0
- [# 1322. Ads Performance.sql]() | 0 
+ [# 1322. Ads Performance.sql]() | [# 1407. Top Travellers.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201407.%20Top%20Travellers.sql)
  --- | ---
-
 
 ###### Return the related column value 
-[# 1350. Students With Invalid Departments.sql]()| 0 
- --- | ---
-
-
-
-[# 1407. Top Travellers.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201407.%20Top%20Travellers.sql)| 0 
+[# 1350. Students With Invalid Departments.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201350.%20Students%20With%20Invalid%20Departments.sql)| [# 607. Sales Person.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%20607.%20Sales%20Person.sql)
  --- | ---
 
 
 
 ## Aggregate 
 
-### Most Frequently 
-[# 1596. The Most Frequently Ordered Products.sql]()| 0
+###### Most Frequently 
+[# 1596. The Most Frequently Ordered Products.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201596.%20The%20Most%20Frequently%20Ordered%20Products.sql)| -
 --- | ---
 
-### Return result, and result will be compared "more/less than"
-[# 1587. Bank Account Summary II.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201587.%20Bank%20Account%20Summary%20II.sql)| 0
+###### Return result, and result will be compared "more/less than"
+[# 1587. Bank Account Summary II.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201587.%20Bank%20Account%20Summary%20II.sql)| -
 --- | ---
 
-### As a condition, the result will be compared "more/less than" 
+###### As a condition, the result will be compared "more/less than" 
 [# 1511. Customer Order Frequency.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201511.%20Customer%20Order%20Frequency.sql)|[# 1327. List the Products Ordered in a Period.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201327.%20List%20the%20Products%20Ordered%20in%20a%20Period.sql) 
  --- | ---
 
-### Include the result, no matter the count is 0 or not 
-[# Students and Examinations.sql]()| 0
+###### return categories from numbers 
+[# 1294. Weather Type in Each Country.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%201294.%20Weather%20Type%20in%20Each%20Country.sql)| -
 --- | ---
 
-### Others 
-[# 1303. Find the Team Size.sql]()| 0
+
+
+###### Include the result, no matter is 0 or not 
+[# Students and Examinations.sql](# 1280. Students and Examinations.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201280.%20Students%20and%20Examinations.sql)| -
 --- | ---
+
+
+
+###### Others 
+[# 1303. Find the Team Size.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201303.%20Find%20the%20Team%20Size.sql)| -
+--- | ---
+
+
 
 
 ## Calculation
-### In and Out transaction
-[# 1555. Bank Account Summary.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201555.%20Bank%20Account%20Summary.sql)| 0 
+###### In and Out transaction
+[# 1555. Bank Account Summary.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201555.%20Bank%20Account%20Summary.sql)| -
  --- | ---
 
-### rate (two factors)
-[# 1322. Ads Performance.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Marketing%20and%20Ecommerce/%23%201322.%20Ads%20Performance.sql) | 0 
+###### rate (two factors)
+[# 1322. Ads Performance.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Marketing%20and%20Ecommerce/%23%201322.%20Ads%20Performance.sql) | -
  --- | ---
 
-### across two or more tables 
-[# 1571. Warehouse Manager.sql]() | 0 
+###### across two or more tables 
+[# 1571. Warehouse Manager.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201571.%20Warehouse%20Manager.sql | -
  --- | ---
-
 
 ## Date 
 ###### Find a specific month
-[# 1511. Customer Order Frequency.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201511.%20Customer%20Order%20Frequency.sql)| [# 1294. Weather Type in Each Country.sql]()
+[# 1511. Customer Order Frequency.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201511.%20Customer%20Order%20Frequency.sql)| [# 1294. Weather Type in Each Country.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%201294.%20Weather%20Type%20in%20Each%20Country.sql)
 --- | ---
 
 ###### Modify into a specific format
-[# 1543. Fix Product Name Format.sql]() | [# 1565. Unique Orders and Customers Per Month.sql]()
+[# 1543. Fix Product Name Format.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201543.%20Fix%20Product%20Name%20Format.sql) | [# 1565. Unique Orders and Customers Per Month.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201565.%20Unique%20Orders%20and%20Customers%20Per%20Month.sql)
  --- | ---
 
 
@@ -79,20 +82,18 @@
 
 
 
-
-
 ## Multiple Joins
 ###### Three tables 
-[# 1555. Bank Account Summary.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201555.%20Bank%20Account%20Summary.sql)| 0 
+[# 1555. Bank Account Summary.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201555.%20Bank%20Account%20Summary.sql)| [# 1280. Students and Examinations.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201280.%20Students%20and%20Examinations.sql)
  --- | ---
 
 ## Formating
-### aggregate the product names in one cell
-[# 1484. Group Sold Products By The Date.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201484.%20Group%20Sold%20Products%20By%20The%20Date.sql)| 0 
+###### aggregate the product names in one cell
+[# 1484. Group Sold Products By The Date.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201484.%20Group%20Sold%20Products%20By%20The%20Date.sql)| -
  --- | ---
 
-### String Validation 
-[# 1517. Find Users With Valid E-Mails.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201517.%20Find%20Users%20With%20Valid%20E-Mails.sql)| 0
+###### String Validation 
+[# 1517. Find Users With Valid E-Mails.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201517.%20Find%20Users%20With%20Valid%20E-Mails.sql)| -
  --- | ---
 - Beginning of the string
 - Any upper/lower case chars
@@ -101,3 +102,6 @@
 - accept chars
 - end with 
 
+###### String Formay - No lowercase without leading or trailing white spaces
+[# 1543. Fix Product Name Format.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201543.%20Fix%20Product%20Name%20Format.sql)| 0
+ --- | ---
