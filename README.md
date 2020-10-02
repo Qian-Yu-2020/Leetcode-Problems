@@ -12,6 +12,10 @@
 ###### Return and state as 0
  [# 1322. Ads Performance.sql]() | [# 1407. Top Travellers.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201407.%20Top%20Travellers.sql)
 --- | ---
+[**# 1142. User Activity for the Past 30 Days II.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201142.%20User%20Activity%20for%20the%20Past%2030%20Days%20II.sql) | - 
+
+
+
 [**# 1241. Number of Comments per Post.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Social%20Media%20and%20Posts/%23%201241.%20Number%20of%20Comments%20per%20Post.sql) | -
 
 
@@ -39,13 +43,9 @@
 [# 1294. Weather Type in Each Country.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%201294.%20Weather%20Type%20in%20Each%20Country.sql)| -
 --- | ---
 
-
-
 ###### Include the result, no matter is 0 or not 
 [# 1280. Students and Examinations.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201280.%20Students%20and%20Examinations.sql)| -
 --- | ---
-
-
 
 ###### Others 
 [# 1303. Find the Team Size.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201303.%20Find%20the%20Team%20Size.sql)| -
@@ -62,7 +62,7 @@
 ###### Rate or Percentage 
 [# 1322. Ads Performance.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Marketing%20and%20Ecommerce/%23%201322.%20Ads%20Performance.sql) | [# 1251. Average Selling Price.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201251.%20Average%20Selling%20Price.sql)
  --- | ---
-[# 1211. Queries Quality and Percentage.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%201211.%20Queries%20Quality%20and%20Percentage.sql)| -
+[**# 1211. Queries Quality and Percentage.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%201211.%20Queries%20Quality%20and%20Percentage.sql) | [**# 1173. Immediate Food Delivery I.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201173.%20Immediate%20Food%20Delivery%20I.sql)
 
 ###### across two or more tables 
 [**# 1571. Warehouse Manager.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201571.%20Warehouse%20Manager.sql) | -
