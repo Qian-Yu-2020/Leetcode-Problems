@@ -12,12 +12,20 @@
 ###### Return and state as 0
 [# 1142. User Activity for the Past 30 Days II.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201142.%20User%20Activity%20for%20the%20Past%2030%20Days%20II.sql) | [**# 1322. Ads Performance.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Marketing%20and%20Ecommerce/%23%201322.%20Ads%20Performance.sql)
 --- | ---
- [# 1241. Number of Comments per Post.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Social%20Media%20and%20Posts/%23%201241.%20Number%20of%20Comments%20per%20Post.sql) | [**# 1407. Top Travellers.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201407.%20Top%20Travellers.sql)
+ [**# 1241. Number of Comments per Post.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Social%20Media%20and%20Posts/%23%201241.%20Number%20of%20Comments%20per%20Post.sql) | [**# 1407. Top Travellers.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201407.%20Top%20Travellers.sql)
 
 ###### Return the related column value 
 [# 1350. Students With Invalid Departments.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201350.%20Students%20With%20Invalid%20Departments.sql)| [# 607. Sales Person.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%20607.%20Sales%20Person.sql)
  --- | ---
  [**# 1083. Sales Analysis II.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201083.%20Sales%20Analysis%20II.sql) | [**# 1084. Sales Analysis III.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201084.%20Sales%20Analysis%20III.sql)
+
+
+## Exist / Sub-query 
+ [# 1549. The Most Recent Orders for Each Product.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201549.%20The%20Most%20Recent%20Orders%20for%20Each%20Product.sql) | - 
+ --- | ---
+ 
+
+
 
 
 
@@ -26,7 +34,7 @@
 ###### Most/Top 
 [# 1596. The Most Frequently Ordered Products.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201596.%20The%20Most%20Frequently%20Ordered%20Products.sql)| [# 1082. Sales Analysis I.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201082.%20Sales%20Analysis%20I.sql)
 --- | ---
-[**# 1076. Project Employees II.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201076.%20Project%20Employees%20II.sql) | -
+[**# 1076. Project Employees II.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201076.%20Project%20Employees%20II.sql) | [ 586. Customer Placing the Largest NO of Order.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%20586.%20Customer%20Placing%20the%20Largest%20NO%20of%20Order.sql)
 
 [**# 619. Biggest Single Number.sql**] | - 
 
@@ -75,6 +83,14 @@
  [# 620. Not Boring Movies.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%20620.%20Not%20Boring%20Movies.sql) | -
  --- | ---
  
+ ###### Consecutive Problems
+ [# 603. Consecutive Available Seats.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%20603.%20Consecutive%20Available%20Seats.sql)| -
+ --- | ---
+ 
+ ###### Others 
+ [# 613. Shortest Distance in a Line.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%20613.%20Shortest%20Distance%20in%20a%20Line.sql)| -
+ --- | ---
+ 
 
 ## Date 
 ###### Find a specific month
@@ -84,15 +100,15 @@
 ###### Find a specific date/time period
 [# 1113. Reported Posts.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Social%20Media%20and%20Posts/%23%201113.%20Reported%20Posts.sql) | [# 1141. User Activity for the Past 30 Days I.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Social%20Media%20and%20Posts/%23%201141.%20User%20Activity%20for%20the%20Past%2030%20Days%20I.sql)
  --- | ---
- [**# 1084. Sales Analysis III.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201084.%20Sales%20Analysis%20III.sql) | -
+ [**# 1084. Sales Analysis III.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201084.%20Sales%20Analysis%20III.sql) |  [# 1251. Average Selling Price.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201251.%20Average%20Selling%20Price.sql) 
 
 
 ###### Modify into a specific format
 [# 1543. Fix Product Name Format.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201543.%20Fix%20Product%20Name%20Format.sql) | [# 1565. Unique Orders and Customers Per Month.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201565.%20Unique%20Orders%20and%20Customers%20Per%20Month.sql)
  --- | ---
 
-###### Period of Time
- [# 1251. Average Selling Price.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201251.%20Average%20Selling%20Price.sql) | - 
+###### Most recent date / first date
+ [# 1549. The Most Recent Orders for Each Product.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201549.%20The%20Most%20Recent%20Orders%20for%20Each%20Product.sql) | [# 511. Game Play Analysis I.sql]([https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%20511.%20Game%20Play%20Analysis%20I.sql)
  --- | ---
  
  
@@ -102,7 +118,7 @@
 
 [# 1294. Weather Type in Each Country.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%201294.%20Weather%20Type%20in%20Each%20Country.sql) | [# 1322. Ads Performance.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Marketing%20and%20Ecommerce/%23%201322.%20Ads%20Performance.sql) 
  --- | ---
-[**# 627. Swap Salary.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%20627.%20Swap%20Salary.sql) | -
+[**# 627. Swap Salary.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%20627.%20Swap%20Salary.sql) | [**# 610. Triangle Judgement.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%20610.%20Triangle%20Judgement.sql)
 
 
 
@@ -112,9 +128,17 @@
  --- | ---
  
  ###### Self Joins 
-[# 1241. Number of Comments per Post.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Social%20Media%20and%20Posts/%23%201241.%20Number%20of%20Comments%20per%20Post.sql) | - 
+[**# 1241. Number of Comments per Post.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Social%20Media%20and%20Posts/%23%201241.%20Number%20of%20Comments%20per%20Post.sql) | - 
  --- | ---
  
+
+
+
+
+
+
+
+
 
 ## Formating
 ###### aggregate the product names in one cell
