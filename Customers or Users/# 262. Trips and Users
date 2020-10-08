@@ -1,0 +1,18 @@
+# 262. Trips and Users
+
+# find the cancellation rate of requests made by unbanned users (both client and driver must be unbanned) between Oct 1, 2013 and Oct 3, 2013. The cancellation rate is computed by dividing the number of canceled (by client or driver) requests made by unbanned users by the total number of requests made by unbanned users
+
+SELECT request_at 'Day', 
+       Round(( Sum(status LIKE "%cancelled%") / Count(*) ), 2)  'Cancellation Rate' 
+FROM   trips 
+WHERE  ( client_id IN (SELECT users_id 
+                       FROM   users 
+                       WHERE  banned = 'No') 
+         AND driver_id IN (SELECT users_id 
+                           FROM   users 
+                           WHERE  banned = 'No') ) 
+       AND request_at BETWEEN '2013-10-01' AND '2013-10-03' 
+GROUP  BY request_at 
+ORDER  BY request_at 
+
+

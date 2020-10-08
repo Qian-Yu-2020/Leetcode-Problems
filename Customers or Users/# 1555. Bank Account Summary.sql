@@ -18,3 +18,57 @@ LEFT JOIN
 FROM Transactions t
 GROUP BY paid_to) as b 
 ON b.paid_to = u.user_id
+
+
+
+
+SELECT user_id,user_name,
+IFNULL(SUM(CASE WHEN a.user_id=b.paid_by THEN -amount ELSE amount END),0)+a.credit as credit,
+CASE WHEN IFNULL(SUM(CASE WHEN a.user_id=b.paid_by THEN -amount ELSE amount END),0)>=-a.credit THEN "No" ELSE "Yes" END as credit_limit_breached
+FROM Users as a
+LEFT JOIN Transactions as b
+ON a.user_id=b.paid_by OR a.user_id=b.paid_to
+GROUP BY a.user_id;
+
+
+
+with spent as (
+    select paid_by as user_id, sum(amount) spent
+    from Transactions
+    group by paid_by
+),
+received as (
+    select paid_to as user_id, sum(amount) received
+    from Transactions
+    group by paid_to
+)
+select 
+    Users.user_id, 
+    Users.user_name, 
+    Users.credit + coalesce(received,0) - coalesce(spent,0) as credit, 
+    case when ( Users.credit + coalesce(received,0) - coalesce(spent, 0) < 0) then 'Yes' 
+        else 'No' 
+        end as credit_limit_breached
+from Users
+left outer join spent using(user_id)
+left outer join received using(user_id)
+order by user_id
+
+
+
+
+with cte as
+(select q.user_id, sum(q.net_amt) as trans_total from
+(select paid_by as user_id, -1*sum(amount) as net_amt
+from transactions t1
+group by paid_by
+union all
+select paid_to as user_id, sum(amount) as net_amt
+from transactions t1
+group by paid_to) q
+group by user_id)
+
+select u.user_id, u.user_name, (u.credit+coalesce(cte.trans_total,0)) as credit,
+case when (u.credit+cte.trans_total) < 0 then 'Yes' else 'No' end as credit_limit_breached
+from cte right join users u
+on cte.user_id = u.user_id

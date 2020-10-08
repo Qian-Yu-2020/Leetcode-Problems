@@ -9,3 +9,15 @@ SELECT LOWER(TRIM(product_name)) as PRODUCT_NAME, DATE_FORMAT(sale_date,"%Y-%m")
 FROM Sales 
 GROUP BY 1, 2
 ORDER BY 1, 2
+
+
+
+select trim(lower(product_name)) as product_name,
+left(sale_date,7) as sale_date,
+count(*) as total
+from Sales
+group by trim(lower(product_name)),left(sale_date,7)
+order by product_name,sale_date
+
+
+
