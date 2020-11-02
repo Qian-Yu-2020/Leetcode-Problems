@@ -3,6 +3,8 @@
 # Performance of the Ad is measured using Click-Through Rate (CTR) 
 # Round ctr to 2 decimal points. Order the result table by ctr in descending order and by ad_id in ascending order in case of a tie
 
+# For percentage calculation, there is an easy way to use CASE function instead of regular "deviding" method
+# The exclusive cases are set as NULL 
 SELECT ad_id, IFNULL(ROUND(AVG(CASE WHEN action = 'Clicked' THEN 1 
                                WHEN action = 'Viewed' THEN 0 
                                ELSE NULL END)*100,2),0) AS ctr

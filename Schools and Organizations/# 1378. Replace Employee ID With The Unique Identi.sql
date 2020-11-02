@@ -4,6 +4,7 @@
 
 SELECT unique_id, name
 FROM Employees
-    LEFT JOIN EmployeeUNI using(id)
+    # Unique ID variable doesn't exist will be shown as null, so EmployeeUNI table is put at the right side of LEFT JOIN function
+    LEFT JOIN EmployeeUNI using(id) 
 ;
 
