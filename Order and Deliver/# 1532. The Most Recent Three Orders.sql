@@ -8,9 +8,34 @@ FROM Customers AS c
 WHERE(
     SELECT COUNT(*) 
     FROM Orders AS o2
+
+    # when using SELF JOIN, it is easy to forgot to connect them first
     WHERE o.customer_id = o2.customer_id AND o.order_date< o2.order_date)<=2
 ORDER BY customer_name,c.customer_id,o.order_date DESC
 ;
+
+
+
+# or 
+# Instead of COUNT in SELECT statement, GROUP BY HAVING COUNT() is also a good option
+# while don't forgot to GROUP BY all the criteria as same as ORDER BY criteria
+SELECT
+ c.name AS customer_name, o1.customer_id, o1.order_id, o1.order_date
+FROM
+ orders o1
+ LEFT JOIN
+      orders o2
+      ON o1.customer_id = o2.customer_id
+      AND o1.order_date < o2.order_date
+ INNER JOIN
+       customers c
+       ON o1.customer_id = c.customer_id
+GROUP BY
+ o1.customer_id, c.name, o1.order_id, o1.order_date
+HAVING
+ COUNT(o2.order_date) <= 2
+ORDER BY
+ c.name, o1.customer_id, o1.order_date desc
 
 
 
@@ -25,7 +50,7 @@ ORDER BY customer_name, Customers.customer_id, order_date DESC
  
 ) latest_orders
 WHERE rownum <= 3
-
+# Why TOP or LIMIT are not been used here
 
 
 
@@ -49,22 +74,3 @@ WITH added_rowNumbers_per_customer
               customer_id ASC, 
               order_date DESC;
 
-
-
-SELECT
- c.name AS customer_name, o1.customer_id, o1.order_id, o1.order_date
-FROM
- orders o1
- LEFT JOIN
-      orders o2
-      ON o1.customer_id = o2.customer_id
-      AND o1.order_date < o2.order_date
- INNER JOIN
-       customers c
-       ON o1.customer_id = c.customer_id
-GROUP BY
- o1.customer_id, c.name, o1.order_id, o1.order_date
-HAVING
- COUNT(o2.order_date) <= 2
-ORDER BY
- c.name, o1.customer_id, o1.order_date desc

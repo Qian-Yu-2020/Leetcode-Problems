@@ -6,9 +6,14 @@
 SELECT customer_id, product_id, product_name
 FROM (
     SELECT o.customer_id, o.product_id, p.product_name, 
+
+    	# Using window function to avoid MAX & COUNT function need to be used in the same time 
+    	# Looking for 'most frequently', then DESC, then = 1 
         RANK() OVER (PARTITION BY customer_id ORDER BY COUNT(o.product_id) DESC) AS rnk
     FROM Orders o
     JOIN Products p ON o.product_id = p.product_id 
+
+    # Don't forgot to GROUP BY product_id as well
     GROUP BY customer_id, product_id
 )temp
 WHERE rnk = 1 
@@ -42,19 +47,6 @@ ON M.product_id = P.product_id
 WHERE rnk = 1
 
 
-
-
-select customer_id, product_id,product_name
-from
-(select customer_id, product_id,product_name, rank() over(partition by customer_id order by cnt desc) rnkcnt
-from
-(
-select customer_id,product_id,product_name, count(*) cnt
-from Orders 
-join Products using(product_id)
-group by customer_id,product_id
-) tmp)tmp1
-where rnkcnt = 1
 
 
 
