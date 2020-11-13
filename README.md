@@ -33,8 +33,7 @@
 [# 1596. The Most Frequently Ordered Products.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201596.%20The%20Most%20Frequently%20Ordered%20Products.sql)| [# 1082. Sales Analysis I.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%201082.%20Sales%20Analysis%20I.sql)
 --- | ---
 [**# 1076. Project Employees II.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Schools%20and%20Organizations/%23%201076.%20Project%20Employees%20II.sql) | [**# 586. Customer Placing the Largest NO of Order.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Order%20and%20Deliver/%23%20586.%20Customer%20Placing%20the%20Largest%20NO%20of%20Order.sql)
-
-[**# 619. Biggest Single Number.sql**] | - 
+[**# 619. Biggest Single Number.sql**](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Others%20/%23%20619.%20Biggest%20Single%20Number.sql) | - 
 
 ###### Return result, and result will be compared "more/less than"
 [# 1587. Bank Account Summary II.sql](https://github.com/Qian-Yu-2020/Multiple-Solutions-for-Leetcode-Problems/blob/master/Customers%20or%20Users/%23%201587.%20Bank%20Account%20Summary%20II.sql)| -
