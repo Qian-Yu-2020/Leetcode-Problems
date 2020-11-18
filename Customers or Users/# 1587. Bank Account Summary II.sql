@@ -7,24 +7,11 @@ SELECT u.name AS NAME,SUM(t.amount) AS BALANCE
 FROM Transactions t LEFT JOIN Users u
 ON u.account = t.account
 GROUP BY u.account 
+# Aggregate function can go directly after HAVING
 HAVING SUM(t.amount)>10000;
 
 
-
-
-select u.name,
-tb1.amount_sum AS balance
-from Users u join
-(select account,
-SUM(amount) AS amount_sum
-from Transactions
-group by account) tb1
-on u.account = tb1.account
-where tb1.amount_sum > 10000
-
-
-
-
+# Second solution 
 with tmp as(
 select t.account, u.name, sum(amount) as balance
 from Transactions t
