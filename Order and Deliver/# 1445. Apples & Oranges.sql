@@ -3,10 +3,17 @@
 # Report the difference between number of apples and oranges sold each day
 # Return the result table ordered by sale_date in format ('YYYY-MM-DD')
 
+
+# If there only two possible situations in CASE statement, 
+# I can use ELSE for another situation, instead of stating both of two situations.
 SELECT sale_date, 
     SUM(CASE WHEN fruit = "apples" THEN sold_num ELSE (-sold_num) END) AS diff
 FROM Sales
+
+# Don't forgot to GROUP BY when using SUM
 GROUP BY sale_date
+
+
 
 
 
@@ -63,6 +70,14 @@ on a.sale_date=o.sale_date
 
 
 
+with tmp as 
+(select sale_date,
+sum(case when fruit = 'apples' then sold_num end) as apples,
+sum(case when fruit = 'oranges' then sold_num end) as oranges
+from sales
+group by sale_date)
+select sale_Date, (apples-oranges) as diff
+from tmp
 
 
 

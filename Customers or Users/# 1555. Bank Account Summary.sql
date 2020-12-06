@@ -3,9 +3,31 @@
 # Find out the current balance of all users and 
 # check wheter they have breached their credit limit (If their current credit is less than 0).
 
+
+
+# First sulution is SUM the two types transaction in SELECT statement
+SELECT user_id,user_name,
+
+# use IFNULL( ,0) because it could be a situation that the customer has no transaction
+IFNULL(SUM(CASE WHEN a.user_id=b.paid_by THEN -amount ELSE amount END),0)+a.credit as credit,
+CASE WHEN IFNULL(SUM(CASE WHEN a.user_id=b.paid_by THEN -amount ELSE amount END),0)>=-a.credit THEN "No" ELSE "Yes" END as credit_limit_breached
+FROM Users as a
+LEFT JOIN Transactions as b
+
+# Becareful there is no user_id in Transactions table
+ON a.user_id=b.paid_by OR a.user_id=b.paid_to
+GROUP BY a.user_id;
+
+
+
+
+
+# Second sulution is SUM the two types transaction by making two extra tables
 SELECT u.user_id AS USER_ID, 
 u.user_name AS USER_NAME, 
 (u.credit - IFNULL(a.c_munis,0) + IFNULL(b.c_plus,0) )AS CREDIT,
+
+# 'Yes' means excessed (breached their credit limit)
 IF(u.credit - IFNULL(a.c_munis,0) + IFNULL(b.c_plus,0)<0,'Yes','No') AS CREDIT_LIMIT_BREACHED
 FROM users u
 LEFT JOIN
@@ -21,14 +43,6 @@ ON b.paid_to = u.user_id
 
 
 
-
-SELECT user_id,user_name,
-IFNULL(SUM(CASE WHEN a.user_id=b.paid_by THEN -amount ELSE amount END),0)+a.credit as credit,
-CASE WHEN IFNULL(SUM(CASE WHEN a.user_id=b.paid_by THEN -amount ELSE amount END),0)>=-a.credit THEN "No" ELSE "Yes" END as credit_limit_breached
-FROM Users as a
-LEFT JOIN Transactions as b
-ON a.user_id=b.paid_by OR a.user_id=b.paid_to
-GROUP BY a.user_id;
 
 
 
@@ -53,6 +67,8 @@ from Users
 left outer join spent using(user_id)
 left outer join received using(user_id)
 order by user_id
+
+
 
 
 
