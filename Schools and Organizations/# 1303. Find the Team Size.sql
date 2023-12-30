@@ -10,7 +10,7 @@ FROM Employee
 # Calculate in the Select statement
 SELECT employee_id, 
 		(SELECT COUNT(1)
-		FROM Employee e2 WHERE e2.employee_id = e.employee_id) AS team_size 
+		FROM Employee e2 WHERE e2.team_id = e.team_id) AS team_size 
 FROM Employee e
 ;
 
